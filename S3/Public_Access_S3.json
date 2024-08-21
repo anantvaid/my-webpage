@@ -1,0 +1,15 @@
+{
+    "Id": "Policy1723743432498",
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "Stmt1723743388166",
+        "Action": [
+            "S3:GetObject"
+        ],
+        "Effect": "Allow",
+        "Resource": "arn:aws:s3:::techtalkswithanant.online/*",
+        "Principal": "*"
+      }
+   ]
+}
